@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1380" width="1100" height="1380">
+  <defs>
+    <style>
+      text { font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Helvetica, Arial, sans-serif; }
+      .title { font-size: 26px; font-weight: 700; }
+      .subtitle { font-size: 13px; fill: #8b949e; letter-spacing: 0.5px; }
+      .node-label { font-size: 13px; }
+      .arrow-label { font-size: 12px; }
+      .legend-title { font-size: 12px; font-weight: 700; fill: #f0f6fc; letter-spacing: 1.2px; }
+      .legend-label { font-size: 12px; fill: #f0f6fc; }
+    </style>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="50%"  stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glow-blue" cx="22%" cy="18%" r="45%">
+      <stop offset="0%"   stop-color="#58a6ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-purple" cx="82%" cy="78%" r="45%">
+      <stop offset="0%"   stop-color="#bc8cff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-green" cx="60%" cy="50%" r="40%">
+      <stop offset="0%"   stop-color="#3fb950" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#58a6ff"/>
+      <stop offset="60%"  stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#f78166"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#58a6ff"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="1380" fill="url(#bg)"/>
+  <rect width="1100" height="1380" fill="url(#glow-blue)"/>
+  <rect width="1100" height="1380" fill="url(#glow-purple)"/>
+  <rect width="1100" height="1380" fill="url(#glow-green)"/>
+  <text class="title" x="550.0" y="40" text-anchor="middle" fill="url(#title-grad)">Supplier Labeling Non-Compliance</text>
+  <text class="subtitle" x="550.0" y="62" text-anchor="middle">AUTOMATED OUTREACH FLOW &#8212; EFFECTIVE 3/13/26</text>
+  <rect x="382.0" y="80.0" width="316" height="70" rx="35.0" ry="35.0" fill="#3fb950" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="390.0" y="88.0" width="300" height="54" rx="27.0" ry="27.0" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="417.0" y1="89.0" x2="663.0" y2="89.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="540" y="120.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">Supplier sends freight package</text>
+  <rect x="380.0" y="170.0" width="320" height="90" rx="22" ry="22" fill="#58a6ff" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="390.0" y="180.0" width="300" height="70" rx="12" ry="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="402.0" y1="181.0" x2="678.0" y2="181.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="540" y="211.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">Receiving opens package</text>
+  <text class="node-label" x="540" y="228.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">and verifies contents</text>
+  <path d="M 540 258 L 712 340 L 540 422 L 368 340 Z" fill="#f78166" opacity="0.28" filter="url(#soft-glow)"/>
+  <path d="M 540 270 L 700 340 L 540 410 L 380 340 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <text class="node-label" x="540" y="336.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">Internal packaging</text>
+  <text class="node-label" x="540" y="353.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">has exposed labels?</text>
+  <rect x="742.0" y="297.0" width="276" height="86" rx="43.0" ry="43.0" fill="#3fb950" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="750.0" y="305.0" width="260" height="70" rx="35.0" ry="35.0" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="785.0" y1="306.0" x2="975.0" y2="306.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="880" y="336.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">Proceed with normal</text>
+  <text class="node-label" x="880" y="353.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">receiving process</text>
+  <rect x="360.0" y="445.0" width="360" height="90" rx="22" ry="22" fill="#58a6ff" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="370.0" y="455.0" width="340" height="70" rx="12" ry="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="382.0" y1="456.0" x2="698.0" y2="456.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="540" y="486.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">Receiving enters PO # and line</text>
+  <text class="node-label" x="540" y="503.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">number in quick interface</text>
+  <rect x="370.0" y="565.0" width="340" height="90" rx="22" ry="22" fill="#58a6ff" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="380.0" y="575.0" width="320" height="70" rx="12" ry="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="392.0" y1="576.0" x2="688.0" y2="576.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="540" y="606.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">System looks up supplier</text>
+  <text class="node-label" x="540" y="623.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">email contact in Coupa</text>
+  <path d="M 540 658 L 702 740 L 540 822 L 378 740 Z" fill="#f78166" opacity="0.28" filter="url(#soft-glow)"/>
+  <path d="M 540 670 L 690 740 L 540 810 L 390 740 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <text class="node-label" x="540" y="736.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">Supplier contact</text>
+  <text class="node-label" x="540" y="753.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">found?</text>
+  <rect x="70.0" y="695.0" width="300" height="90" rx="22" ry="22" fill="#bc8cff" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="80.0" y="705.0" width="280" height="70" rx="12" ry="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="92.0" y1="706.0" x2="348.0" y2="706.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="220" y="736.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">Flag for buyer</text>
+  <text class="node-label" x="220" y="753.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">manual follow-up</text>
+  <rect x="350.0" y="835.0" width="380" height="110" rx="22" ry="22" fill="#58a6ff" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="360.0" y="845.0" width="360" height="90" rx="12" ry="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="372.0" y1="846.0" x2="708.0" y2="846.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="540" y="878.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">System sends generic</text>
+  <text class="node-label" x="540" y="895.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">form letter to supplier</text>
+  <text class="node-label" x="540" y="912.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">with updated requirement</text>
+  <path d="M 400.0 1008.0 L 400.0 1062.0 A 140.0 9 0 0 0 680.0 1062.0 L 680.0 1008.0" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <ellipse cx="540" cy="1008.0" rx="140.0" ry="9" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <text class="node-label" x="540" y="1036.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">Log event to</text>
+  <text class="node-label" x="540" y="1053.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">tracking dashboard</text>
+  <path d="M 540 1083 L 722 1180 L 540 1277 L 358 1180 Z" fill="#f78166" opacity="0.28" filter="url(#soft-glow)"/>
+  <path d="M 540 1095 L 710 1180 L 540 1265 L 370 1180 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <text class="node-label" x="540" y="1168.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">Monthly review:</text>
+  <text class="node-label" x="540" y="1185.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">Supplier over</text>
+  <text class="node-label" x="540" y="1202.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">10 emails?</text>
+  <rect x="82.0" y="1142.0" width="276" height="76" rx="38.0" ry="38.0" fill="#3fb950" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="90.0" y="1150.0" width="260" height="60" rx="30.0" ry="30.0" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="120.0" y1="1151.0" x2="320.0" y2="1151.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="220" y="1185.1" text-anchor="middle" fill="#f0f6fc" font-weight="500">Continue monitoring</text>
+  <rect x="340.0" y="1275.0" width="400" height="90" rx="22" ry="22" fill="#bc8cff" opacity="0.28" filter="url(#soft-glow)"/>
+  <rect x="350.0" y="1285.0" width="380" height="70" rx="12" ry="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="362.0" y1="1286.0" x2="718.0" y2="1286.0" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="node-label" x="540" y="1316.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">Issue RCCA and start</text>
+  <text class="node-label" x="540" y="1333.6" text-anchor="middle" fill="#f0f6fc" font-weight="500">formal communication process</text>
+  <path d="M 540 142 L 540 178" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <path d="M 540 250 L 540 272" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <path d="M 700 340 L 748 340" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <rect x="702.0" y="311.0" width="44" height="22" rx="6" ry="6" fill="#0d1117" stroke="rgba(88,166,255,0.5)" stroke-width="1"/>
+  <text class="arrow-label" x="724" y="326.5" text-anchor="middle" fill="#f0f6fc" font-weight="600">Yes</text>
+  <path d="M 540 410 L 540 453" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <rect x="557.0" y="419.0" width="38" height="22" rx="6" ry="6" fill="#0d1117" stroke="rgba(88,166,255,0.5)" stroke-width="1"/>
+  <text class="arrow-label" x="576" y="434.5" text-anchor="middle" fill="#f0f6fc" font-weight="600">No</text>
+  <path d="M 540 525 L 540 573" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <path d="M 540 645 L 540 672" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <path d="M 390 740 L 362 740" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <rect x="357.0" y="711.0" width="38" height="22" rx="6" ry="6" fill="#0d1117" stroke="rgba(88,166,255,0.5)" stroke-width="1"/>
+  <text class="arrow-label" x="376" y="726.5" text-anchor="middle" fill="#f0f6fc" font-weight="600">No</text>
+  <path d="M 540 810 L 540 843" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <rect x="556.0" y="817.0" width="44" height="22" rx="6" ry="6" fill="#0d1117" stroke="rgba(88,166,255,0.5)" stroke-width="1"/>
+  <text class="arrow-label" x="578" y="832.5" text-anchor="middle" fill="#f0f6fc" font-weight="600">Yes</text>
+  <path d="M 540 935 L 540 997" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <path d="M 220 775 L 220 1035 L 398 1035" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <path d="M 540 1071 L 540 1095" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <path d="M 370 1180 L 352 1180" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <rect x="343.0" y="1151.0" width="38" height="22" rx="6" ry="6" fill="#0d1117" stroke="rgba(88,166,255,0.5)" stroke-width="1"/>
+  <text class="arrow-label" x="362" y="1166.5" text-anchor="middle" fill="#f0f6fc" font-weight="600">No</text>
+  <path d="M 540 1265 L 540 1283" fill="none" stroke="#58a6ff" stroke-width="1.6" opacity="0.85" marker-end="url(#arrow)"/>
+  <rect x="556.0" y="1269.0" width="44" height="22" rx="6" ry="6" fill="#0d1117" stroke="rgba(88,166,255,0.5)" stroke-width="1"/>
+  <text class="arrow-label" x="578" y="1284.5" text-anchor="middle" fill="#f0f6fc" font-weight="600">Yes</text>
+  <rect x="40" y="110" width="210" height="180" rx="12" ry="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <line x1="52" y1="111" x2="238" y2="111" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
+  <text class="legend-title" x="58" y="136">LEGEND</text>
+  <rect x="58" y="154" width="22" height="14" rx="4" ry="4" fill="#3fb950" opacity="0.9"/>
+  <text class="legend-label" x="90" y="165">Start / End</text>
+  <rect x="58" y="180" width="22" height="14" rx="4" ry="4" fill="#58a6ff" opacity="0.9"/>
+  <text class="legend-label" x="90" y="191">Process step</text>
+  <rect x="58" y="206" width="22" height="14" rx="4" ry="4" fill="#f78166" opacity="0.9"/>
+  <text class="legend-label" x="90" y="217">Decision</text>
+  <rect x="58" y="232" width="22" height="14" rx="4" ry="4" fill="rgba(255,255,255,0.15)" opacity="0.9"/>
+  <text class="legend-label" x="90" y="243">Data store</text>
+  <rect x="58" y="258" width="22" height="14" rx="4" ry="4" fill="#bc8cff" opacity="0.9"/>
+  <text class="legend-label" x="90" y="269">Escalation</text>
+</svg>
